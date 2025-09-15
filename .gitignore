@@ -1,3 +1,11 @@
+# 忽略 Terraform 本地状态和 provider 缓存
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# 保留 terraform.tfvars 文件
+!terraform.tfvars
 *.pem
 *.tfstate
 .terraform/
